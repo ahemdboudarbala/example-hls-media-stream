@@ -10,7 +10,8 @@ cd tmp
 
 MODULE_NAME="oatpp"
 
-git clone --depth=1 https://github.com/oatpp/$MODULE_NAME
+git clone --depth 1 --branch 1.3.0 --single-branch https://github.com/oatpp/$MODULE_NAME
+
 
 cd $MODULE_NAME
 mkdir build
